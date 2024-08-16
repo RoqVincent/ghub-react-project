@@ -9,23 +9,26 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffffa3;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #105061;
+}
+.App-link:hover {
+  color: #0581e6;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +39,54 @@
     transform: rotate(360deg);
   }
 }
+
+/* React Introduction Message */
+.M {
+  color: #094252;
+  font-weight: bold;
+}
+.Introduction {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 100px;
+  color: #104061;
+}
+
+.App-Page {
+  background-color: #30869d;
+}
+
+/* App page menu */
+.menu-toggle {
+  fill: white;
+  background-color: #177791;
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+  margin: 6px;
+  cursor: pointer;
+}
+  .menu-toggle:hover {
+  background-color: #105061;
+  }
+  .menu-dropdown {
+    position: absolute;
+    background-color: #105061;
+    margin: 6px;
+    padding: 0 0 8px;
+    width: 130px; /*width of dropdown*/
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .menu-dropdown ul, li {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    list-style: none;
+    padding: 5px 11px;
+    margin: 0;
+  }
+  .menu-dropdown li:hover {
+    color:  #61dafb;
+    cursor: pointer;
+  }

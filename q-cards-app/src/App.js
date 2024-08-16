@@ -2,7 +2,9 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import Card from './q-cards/Card';
+// import Card from './q-cards/components/Card';
+import CardsPage from './q-cards/components/CardsPage';
+import AddCard from './q-cards/components/AddCard';
 
 //handles menu bar line 8-37 plus the pages
 const App = () => {
@@ -48,13 +50,13 @@ const App = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         ⮞ Learn React
         </a>
             </header>
           </div>
         ) : (
-          <div>
-            <Card />{}
+          <div className='card-component'>
+          <CardsPage />
           </div>
           )}
           </div>

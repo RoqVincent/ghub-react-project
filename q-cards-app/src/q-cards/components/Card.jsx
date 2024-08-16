@@ -3,10 +3,9 @@ import './Card.css'
 
 function Card() {
     return (
-        <div className="Cards">
-            <h1>
-                GOOGOGO
-            </h1>
+        <div className="card-container">
+            <h3>Card</h3>
+            <p>description...</p>
         </div>
     );
 }

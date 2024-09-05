@@ -8,14 +8,14 @@
         color: #fff1e6;
         font-size: 10px;
         font-weight: 600;
-        background-color: #1f5a90;
+        background-color: #718355;
         border: none;
         border-radius: 20px;
         padding: 8px;
         transition: transform 0.1s;
 }
 .btn:hover {
-        background-color: #09253d;
+        background-color: #87986A;
         cursor: pointer;
         transform: scale(1.0);
 }
@@ -27,14 +27,14 @@
 /* Cards */
 .card-page {
         min-height: 91vh;
-        background-color: #ffffffa3;
+        background-color: #CFE1B9;
         padding: 1px 20px 0px;
 }
 .card-container  {
         color: #fff1e6;
         padding: 20px;
         margin: 10px;
-        background-color: #7897b2;
+        background-color: #87986A;
         border-radius: 10px;
         height: 190px;
         width: 190px;
@@ -44,9 +44,9 @@
 .card-container:hover {
         transform: scale(1.1);
 }
-.card-container:active {
+/* .card-container:active {
         transform: scale(0.9);
-}
+} */
 .card-box {
         display: flex;
         justify-content: center;

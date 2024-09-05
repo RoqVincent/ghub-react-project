@@ -4,8 +4,9 @@ import './Card.css'
 function Card() {
     return (
         <div className="card-container">
-            <h3>Card</h3>
-            <p>description...</p>
+            <h3>Goal Setter</h3>
+            <p>Specific goal on this year</p>
+            <p>Date Wirtten</p>
         </div>
     );
 }

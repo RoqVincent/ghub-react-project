@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 1s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
 .App-header {
-  background-color: #ffffffa3;
+  background-color: #CFE1B9;
   min-height: 91vh;
   display: flex;
   flex-direction: column;
@@ -26,10 +26,10 @@
 
 .App-link {
   font-size: 16px;
-  color: #105061;
+  color: #87986A;
 }
 .App-link:hover {
-  color: #0581e6;
+  color: #718355;
 }
 
 @keyframes App-logo-spin {
@@ -43,24 +43,24 @@
 
 /* React Introduction Message */
 .M {
-  color: #094252;
+  color: #718355;
   font-weight: bold;
 }
 .Introduction {
   font-size: 18px;
   font-weight: 500;
   padding: 10px 100px;
-  color: #104061;
+  color: #718355;
 }
 
 .App-Page {
-  background-color: #30869d;
+  background-color: #718355;
 }
 
 /* App page menu */
 .menu-toggle {
   fill: white;
-  background-color: #177791;
+  background-color: #87986A;
   border-radius: 5px;
   border: none;
   padding: 6px;
@@ -68,11 +68,11 @@
   cursor: pointer;
 }
   .menu-toggle:hover {
-  background-color: #105061;
+  background-color: #42502c;
   }
   .menu-dropdown {
     position: absolute;
-    background-color: #105061;
+    background-color: #87986A;
     margin: 6px;
     padding: 0 0 8px;
     width: 130px; /*width of dropdown*/
@@ -88,6 +88,6 @@
     margin: 0;
   }
   .menu-dropdown li:hover {
-    color:  #61dafb;
+    color:  #CFE189;
     cursor: pointer;
   }
